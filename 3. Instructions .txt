@@ -1,0 +1,16 @@
+Basic Version
+
+1. Reset button is BTN C
+2. Output of Register 7 is shown in LD0 – LD3
+3. Zero Flag is	LD14
+4. Overflow Flag is LD15
+5. Leftmost 7 segmented display is used to show the output of Register 7. Value will be considered Unsigned and shown as a hexadecimal number. Therefore 0 - F will be shown in the display.
+
+
+Extended Version
+
+1. Reset button is BTN C
+2. Output of Register 7 is shown in LD0 – LD7
+3. Zero Flag is	LD14
+4. Overflow Flag is LD15
+5. 3 Leftmost 7 segmented displays are used to show the output of Register 7. Number will considered signed, so first display used to show the minus signed and other two displays will show the absolute value in hexadecimal.
