@@ -31,18 +31,20 @@ Designed as an educational experiment to understand how low-level processors wor
 ## 📁 Project Structure
 
 ```
-nano-processor/
-├── src/                    # HDL source code
-│   ├── alu.vhd            # ALU module
-│   ├── control.vhd        # Control unit
-│   ├── memory.vhd         # RAM/ROM
-│   ├── registers.vhd      # Register file
-│   └── processor.vhd      # Top module
-├── testbench/             # Testbench files
-├── sim/                   # Simulation outputs (waveforms, logs)
-├── doc/                   # Documentation (ISA, diagrams)
-├── README.md
-└── LICENSE
+nanoprocessor/
+├── 1. Simulation Ready Project files
+│   ├── Basic Version
+│   │   └── Nanoprocessor.rar
+│   └── Extended Version
+│       └── Improved Nano-processor.rar
+├── 2. Genarated Bitstream
+│   ├── Basic version
+│   └── Extended version
+├── .gitignore
+├── 3. Instructions .txt
+├── Nano Processor Presentation.pdf
+├── Nano Processor Report Group 20.pdf
+└── readme.md
 ```
 
 ## 🚀 How to Run
